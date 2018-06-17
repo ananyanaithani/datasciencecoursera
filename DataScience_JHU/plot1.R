@@ -18,5 +18,3 @@ png("plot1.png", width=480, height=480)
 hist(mydata1$Global_active_power, col='red',xlab="Global Active Power (kilowatts)", main="Global Active Power")
 dev.off()
 
-##plot(mydata1$Global_active_power,type="l",xaxt="n",xlab="")
-##axis(1,at=c(0,1440,2880),labels=c("Thu", "Fri", "Sat"))
